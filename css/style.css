@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url("common.css");
+
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+}
+
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header,section{
+  width: 960px;
+  margin: 0 auto;
+}
+
+ul li{
+  display: inline-block;
+  margin-left: 15px;
+}
+h2{
+  text-align: center;
+}
+
+
+.p1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 120px;
+}
+
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+#maiinvisual img{
+  width: 100%;
+  height: 420px;
+}
+
+#maiinvisual{
+  height: 420px;
+}
+
+#content{
+  width: 960px;
+
+}
+
+#Contact{
+  margin-left: 145px;
+}
+/*-------------------------------------------
+About
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+
+#works img{
+  width: 200px;
+}
+
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+
+
+.Form-Btn{
+  margin-top: 18px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:600px){
+#footer{
+ width:100%;
+}
+#works img{
+  width: 145px;
+}
+.p1{
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: -150px;
+}
+h2{
+margin-right: 500px;
+}
+.p2{
+  margin-right: 800px;
+}
+}
